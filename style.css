@@ -5,3 +5,11 @@
 .navbar ul.active {
     display: block;
 }
+
+body {
+    font-family: Gadugi, system-ui, -apple-system, sans-serif;
+}
+
+input, textarea, select, button {
+    font-family: inherit;
+}
