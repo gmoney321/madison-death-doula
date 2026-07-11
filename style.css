@@ -1,0 +1,7 @@
+.navbar ul {
+    display: none;
+}
+
+.navbar ul.active {
+    display: block;
+}
