@@ -1,9 +1,9 @@
-.navbar ul {
+.menu-overlay {
     display: none;
 }
 
-.navbar ul.active {
-    display: block;
+.menu-overlay.active {
+    display: flex;
 }
 
 body {
