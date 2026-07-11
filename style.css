@@ -1,9 +1,21 @@
 .menu-overlay {
     display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-overlay.active {
     display: flex;
+}
+
+.menu-panel {
+    background: white;
+    padding: 1rem;
+    text-align: center;
 }
 
 body {
