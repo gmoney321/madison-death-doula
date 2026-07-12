@@ -1,5 +1,6 @@
 body {
     font-family: Gadugi, system-ui, -apple-system, sans-serif;
+    text-align: center;
 }
 
 header {
@@ -10,7 +11,7 @@ header {
 }
 
 .site-logo-link img {
-    width: 50px;
+    width: 80px;
 }
 
 #about img {
@@ -86,4 +87,10 @@ input, textarea, select, button {
     color: inherit;
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+ul.clean {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
