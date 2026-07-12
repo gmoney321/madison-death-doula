@@ -13,7 +13,7 @@ header {
     width: 50px;
 }
 
-.about-page img, img.cat-photo {
+#about img {
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -36,6 +36,15 @@ input, textarea, select, button {
     justify-content: space-between;
     border: none;
     background: transparent;
+    cursor: pointer;
+}
+
+.close-menu {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    align-items: center;
+    align-self: center;
     cursor: pointer;
 }
 
