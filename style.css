@@ -1,6 +1,7 @@
 body {
     font-family: Gadugi, system-ui, -apple-system, sans-serif;
     text-align: center;
+    padding: 0.5rem;
 }
 
 header {
@@ -93,4 +94,8 @@ ul.clean {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+li + li {
+    margin-top: 1rem;
 }

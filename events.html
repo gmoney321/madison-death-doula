@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact information for John Smith, a certified death doula in Madison, WI. Reach out for compassionate end-of-life care support.">
-    <title>Contact John Smith Madison Area Death Doula</title>
+    <meta name="description" content="List upcoming events related to Death in Madison WI">
+    <title>Madison Area Death Doula Events</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -30,22 +30,17 @@
         </div>
     </div>
     <main>
-        <section id="contact">
-                    <h1>Contact Me</h1>
-                    <p>tel: (608) 555-1234</p>
-                    <p>email: john@example.com</p>
-                    <label>
-                        Full Name
-                        <input type=""text name="name" required>
-                    </label>
-                    <label>
-                        Email
-                        <input type="email" required>
-                    </label>
-
-                    
+        <section id="events">
+            <h1>Upcoming Events</h1>
+            <div id="event-list">Loading Events...</div>
         </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/ics@3.12.0/dist/index.min.js"
+    integrity="sha384-WdmWPoCCQPpgaDqk9v34279eXxMsXldIPIo0MTfpY3eup1wjEat6oJTC69TaYqwT"
+    crossorigin="anonymous">
+    </script>
     <script src="script.js"></script>
 </body>
+
 </html>
