@@ -13,6 +13,13 @@ header {
     width: 50px;
 }
 
+.about-page img, img.cat-photo {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 input, textarea, select, button {
     font-family: inherit;
 }
