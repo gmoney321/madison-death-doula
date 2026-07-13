@@ -22,6 +22,22 @@ header {
     display: block;
 }
 
+#home {
+    background-image: url('journey.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.75);
+    pointer-events: none;
+}
+
 input, textarea, select, button {
     font-family: inherit;
 }
