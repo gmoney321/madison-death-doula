@@ -122,3 +122,15 @@ ul.clean {
 li + li {
     margin-top: 1rem;
 }
+
+footer {
+    background-color: #EEE7DD;
+    text-align: center;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
