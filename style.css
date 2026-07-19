@@ -16,6 +16,22 @@ header {
     width: 80px;
 }
 
+#about {
+    min-height: 100vh; 
+}
+
+#contact {
+    min-height: 100vh; 
+}
+
+#events {
+    min-height: 100vh; 
+}
+
+#services {
+    min-height: 100vh; 
+}
+
 #about img {
     width: 100%;
     max-width: 100%;
@@ -43,6 +59,7 @@ header {
 #home > * {
     position: relative;
     z-index: 1;
+    min-height: 1vh;
 }
 
 input, textarea, select, button {
